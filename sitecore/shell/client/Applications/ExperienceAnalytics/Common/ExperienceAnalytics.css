@@ -1,0 +1,494 @@
+﻿/* APPLICATION */
+[data-sc-id="Main"] .row [class^="col-md-"] {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 0;
+}
+
+[data-sc-id="Main"] .row { padding-right: 15px; }
+
+
+.sc-ExperienceAnalyticsFilters [data-sc-id$=DateRangeFilter],
+.sc-ExperienceAnalyticsFilters [data-sc-id$=MetricsDropDown],
+.sc-ExperienceAnalyticsFilters [data-sc-id$=SubsiteFilter] {
+    background: #fff;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.175);
+    position: absolute;
+    z-index: 1005;
+}
+
+.sc-ExperienceAnalyticsFilters .sc-border[data-sc-id$="ContentWrapper"] {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    position: relative;
+}
+
+.sc-ExperienceAnalyticsFilters .sc-SubsiteFilter .sc-MetricsDropDown [data-sc-id$="DropDownWrapper"],
+.sc-ExperienceAnalyticsFilters .sc-DateRangeFilter [data-sc-id$="DropDownWrapper"] {
+    padding-top: 0;
+}
+
+.sc-ExperienceAnalyticsFilters [data-sc-id$="FilterToggleButton"],
+.sc-ExperienceAnalyticsFilters [data-sc-id$="ResetButton"] { margin-left: 7px; }
+
+.sc-ExperienceAnalyticsFilters button.sc-togglebutton {
+    margin-left: 1em;
+}
+
+/* Subsite */
+
+.sc-ExperienceAnalyticsFilters [data-sc-id$=SubsiteFilter] { right: 1.5em; }
+
+.sc-ExperienceAnalyticsFilters [data-sc-id$="SubsiteColumnPanel"] { line-height: 26px; }
+
+.sc-ExperienceAnalyticsFilters .sc-SubsiteFilter [data-sc-id$="ComboBox"] { margin-bottom: 15px; }
+
+.sc-ExperienceAnalyticsFilters .sc-SubsiteFilter [data-sc-id$="ControlsRow"] {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+/* Metrics Drop Down*/
+
+.sc-ExperienceAnalyticsFilters [data-sc-id$=MetricsDropDown] {
+    right: 8.5em;
+}
+
+/*.sc-ExperienceAnalyticsFilters [data-sc-id$="SubsiteColumnPanel"] {
+    line-height: 26px;
+}*/
+
+.sc-ExperienceAnalyticsFilters .sc-MetricsDropDown [data-sc-id$="ComboBox"] {
+    margin-bottom: 15px;
+}
+
+.sc-ExperienceAnalyticsFilters .sc-MetricsDropDown [data-sc-id$="ControlsRow"] {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+/* Date range */
+
+.sc-ExperienceAnalyticsFilters [data-sc-id$=DateRangeFilter] { right: 2em; }
+
+.sc-ExperienceAnalyticsFilters .sc-DateRangeFilter [data-sc-id$="FromDatePickerLeftColumn"],
+.sc-ExperienceAnalyticsFilters .sc-DateRangeFilter [data-sc-id$="ToDatePickerLeftColumn"] {
+    line-height: 28px;
+    white-space: nowrap;
+}
+
+.sc-ExperienceAnalyticsFilters .sc-DateRangeFilter [data-sc-id$="ExperienceAnalyticsFiltersDateRangeFilterFromDatePickerRightColumn"],
+.sc-ExperienceAnalyticsFilters .sc-DateRangeFilter [data-sc-id$="ExperienceAnalyticsFiltersDateRangeFilterToDatePickerRightColumn"] { padding-left: 25px; }
+
+.sc-ExperienceAnalyticsFilters .sc-DateRangeFilter [data-sc-id$="FromDatePickerRow"] { margin-bottom: 15px; }
+
+.sc-ExperienceAnalyticsFilters .sc-DateRangeFilter .sc-radiobutton {
+    display: inline-block;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.sc-ExperienceAnalyticsFilters .sc-DateRangeFilter [data-sc-id$="PresetsInnerRow"] { margin-left: 0; }
+
+.sc-ExperienceAnalyticsFilters .sc-DateRangeFilter [data-sc-id$="ButtonsColumn"] { text-align: right; }
+
+/* ChartComposites */
+
+.sc-ChartComposites {
+    background: #FFF;
+    padding-bottom: 6px;
+}
+
+.sc-ChartComposites .sc-image {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.sc-ChartComposites .sc-chartControlsWrapper { float: right; }
+
+.sc-ChartComposites [data-sc-id$="BorderChart"] { padding: 0 8%; }
+
+.sc-ChartComposites [data-sc-id$="ActionControl"] {
+    background: none;
+    background-image: none;
+}
+
+.sc-ChartComposites [data-sc-id$="ActionControl"] .btn-default {
+    background: none;
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    height: 46px;
+}
+
+.sc-ChartComposites [data-sc-id$="ActionControl"] .btn-default:hover {
+    background: #e3e3e3;
+    box-shadow: none;
+}
+
+.sc-ChartComposites [data-sc-id$="ActionControl"] .btn-default:active {
+    border: 0px;
+    box-shadow: inset 0 0 6px #b0b0b0;
+}
+
+.sc-ChartComposites .sc-actionpanel ul.nav > li > .btn-group { padding-right: 0; }
+
+.sc-ChartComposites [data-sc-id$="ActionControl"] .btn-group .btn-default:disabled {
+    background-color: #aadbee;
+    box-shadow: none;
+    opacity: 1;
+}
+
+.sc-ChartComposites .sc-advancedExpander-body.hide { display: block !important; }
+
+.sc-ChartComposites .sc-advancedExpander-footer { display: none; }
+
+.sc-ChartComposites .sc-advancedExpander-header {
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 18px;
+}
+
+.sc-ExperienceAnalyticsListControl .sc-advancedExpander-header { border-bottom: 1px solid #f0f0f0; }
+
+
+.sc-ChartComposites .sc-advancedExpander .sc-advancedExpander-header > table .sc-advancedExpander-header-title,
+.sc-ExperienceAnalyticsListControl .sc-advancedExpander .sc-advancedExpander-header > table .sc-advancedExpander-header-title {
+    color: #474747;
+    font-size: 1.5em;
+    font-weight: normal;
+    padding-left: 15px;
+}
+
+.sc-ExperienceAnalyticsListControl.noTitle .sc-advancedExpander .sc-advancedExpander-header { display: none; }
+
+.sc-ChartComposites .sc-advancedExpander.open .sc-advancedExpander-header,
+.sc-ChartComposites .sc-advancedExpander .sc-advancedExpander-header,
+.sc-ExperienceAnalyticsListControl .sc-advancedExpander.open .sc-advancedExpander-header,
+.sc-ExperienceAnalyticsListControl .sc-advancedExpander .sc-advancedExpander-header { border-left: none; }
+
+.sc-ChartComposites .sc-advancedExpander.open .sc-advancedExpander-header > table,
+.sc-ChartComposites .sc-advancedExpander .sc-advancedExpander-header > table,
+.sc-ExperienceAnalyticsListControl .sc-advancedExpander.open .sc-advancedExpander-header > table,
+.sc-ExperienceAnalyticsListControl .sc-advancedExpander .sc-advancedExpander-header > table { background: #FFF; }
+
+.sc-ChartComposites .sc-advancedExpander-body,
+.sc-ExperienceAnalyticsListControl .sc-advancedExpander-body {
+    background: #FFF;
+    border: none;
+}
+
+.sc-ChartComposites .sc-advancedExpander-bodywrapper { padding: 0 8%; }
+
+.sc-ChartComposites .sc-advancedExpander .sc-advancedExpander-header > table .sc-advancedExpander-header-actionbar-container { padding-right: 0; }
+
+/* List control specific */
+
+.sc-ExperienceAnalyticsListControl[data-sc-targetpageurl] tbody tr { cursor: pointer; }
+
+.sc-ExperienceAnalyticsListControl.sc-ListControl-configurationError .sc-advancedExpander,
+.sc-ExperienceAnalyticsListControl.sc-ListControl-configurationError .sc-advancedExpander .sc-advancedExpander-body { background: #ffffff; }
+
+.sc-ExperienceAnalyticsListControl .sc-advancedExpander,
+.sc-ExperienceAnalyticsListControl .sc-advancedExpander .sc-advancedExpander-body { background: none; }
+
+/* Kpi chart */
+
+.sc-ChartComposites .sc-noData {
+    color: #666666 !important;
+    font-family: verdana !important;
+    font-size: 10px !important;
+}
+
+.sc-ChartComposites .sc-metricValue { font-size: 3em; }
+
+
+/*#region Experience Analytics Data Table*/
+.sc-ExperienceAnalyticsDataTable {
+    margin-top: 0;
+    *zoom: 1;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table {
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 0;
+    background: #ffffff;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr td,
+.sc-ExperienceAnalyticsDataTable .sc-table thead td,
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr th,
+.sc-ExperienceAnalyticsDataTable .sc-table thead th {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-indent: 8px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr td img,
+.sc-ExperienceAnalyticsDataTable .sc-table thead td img,
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr th img,
+.sc-ExperienceAnalyticsDataTable .sc-table thead th img {
+    height: 18px;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr td,
+.sc-ExperienceAnalyticsDataTable .sc-table thead td {
+    padding: 14px 15px;
+    border: 1px solid #d6d6d6;
+    color: #474747;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr td a,
+.sc-ExperienceAnalyticsDataTable .sc-table thead td a {
+    color: #2694c0;
+    text-decoration: none;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr th,
+.sc-ExperienceAnalyticsDataTable .sc-table thead th {
+    padding: 15px;
+    border: 0;
+    background: #969696;
+    color: #ffffff;
+    font-weight: normal;
+    position: relative;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr th .sc-table-sortable,
+.sc-ExperienceAnalyticsDataTable .sc-table thead th .sc-table-sortable {
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -4px;
+    cursor: pointer;
+    border-left: 0.500em solid transparent;
+    border-right: 0.500em solid transparent;
+    border-top: 8px solid #ffffff;
+    border-bottom: 0 solid #ffffff;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr th .sc-table-sortable.up,
+.sc-ExperienceAnalyticsDataTable .sc-table thead th .sc-table-sortable.up {
+    border-bottom: 8px solid #ffffff;
+    border-top: 0 solid #ffffff;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr th .sc-table-sortable.noDirection,
+.sc-ExperienceAnalyticsDataTable .sc-table thead th .sc-table-sortable.noDirection {
+    border-bottom: 8px solid #cccccc;
+    border-top: 0 solid #cccccc;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr td.cb,
+.sc-ExperienceAnalyticsDataTable .sc-table thead td.cb,
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr th.cb,
+.sc-ExperienceAnalyticsDataTable .sc-table thead th.cb {
+    width: 50px;
+    max-width: 50px;
+    text-indent: 0;
+    text-align: center;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr th[data-sc-sort],
+.sc-ExperienceAnalyticsDataTable .sc-table thead th[data-sc-sort] {
+    position: relative;
+    padding-right: 20px;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr th[data-sc-sort] i.sort,
+.sc-ExperienceAnalyticsDataTable .sc-table thead th[data-sc-sort] i.sort {
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 10px;
+    top: 20px;
+    margin-top: -8px;
+    width: 0;
+    height: 0;
+    cursor: pointer;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr th[data-sc-sort] i.sort.asc,
+.sc-ExperienceAnalyticsDataTable .sc-table thead th[data-sc-sort] i.sort.asc {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #121212;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr th[data-sc-sort] i.sort.desc,
+.sc-ExperienceAnalyticsDataTable .sc-table thead th[data-sc-sort] i.sort.desc {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #121212;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr th[data-sc-sort] a,
+.sc-ExperienceAnalyticsDataTable .sc-table thead th[data-sc-sort] a {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 35px;
+    top: 6px;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr td.label1,
+.sc-ExperienceAnalyticsDataTable .sc-table thead td.label1 {
+    background: #6ac0e2;
+    border-right: 1px solid #8ccee8;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr td.label2,
+.sc-ExperienceAnalyticsDataTable .sc-table thead td.label2 {
+    background: #a2ca81;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr td.label3,
+.sc-ExperienceAnalyticsDataTable .sc-table thead td.label3 {
+    background: #fb9851;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr:hover td,
+.sc-ExperienceAnalyticsDataTable .sc-table thead:hover td {
+    background-color: #e3e3e3;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr td.ventilate,
+.sc-ExperienceAnalyticsDataTable .sc-table thead td.ventilate {
+    overflow: hidden;
+    margin-right: 2px;
+    position: relative;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr td.sc-nodata,
+.sc-ExperienceAnalyticsDataTable .sc-table thead td.sc-nodata {
+    color: #cccccc;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr.empty td {
+    text-align: center;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table thead th.sc-table-head:last-child {
+    border-right: 0;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table thead th.sc-table-head:last-child:after {
+    background: none;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table.sc-table-footer {
+    border: 0;
+    width: 100%;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    position: relative;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table.sc-table-footer tr td {
+    text-align: center;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    position: relative;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table.sc-table-footer tr td a {
+    position: absolute;
+    right: 10px;
+}
+.sc-ExperienceAnalyticsDataTable:before,
+.sc-ExperienceAnalyticsDataTable:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.sc-ExperienceAnalyticsDataTable:after {
+    clear: both;
+}
+.sc-ExperienceAnalyticsDataTable .table > tbody > tr.active > td {
+    background: #aadbee;
+}
+.sc-ExperienceAnalyticsDataTable .table > tbody > tr.checked > td {
+    background: #aadbee;
+}
+.sc-ExperienceAnalyticsDataTable .empty {
+    margin: 20px;
+}
+.sc-ExperienceAnalyticsDataTable .sc-text-align-center {
+    text-align: center;
+}
+.sc-ExperienceAnalyticsDataTable .sc-text-align-left {
+    text-align: left;
+}
+.sc-ExperienceAnalyticsDataTable .sc-text-align-right {
+    text-align: right;
+}
+.sc-ExperienceAnalyticsDataTable .sc-text-sortpadding {
+    padding-right: 16px;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table-header th.sc-text-align-right > div {
+    padding-right: 25px;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table-header th > div {
+    position: relative;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table-header .sc-table-header-container {
+    cursor: default;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table-header th.sc-table-head:after {
+    background: #d6d6d6 right center;
+    position: absolute;
+    width: 1px;
+    display: block;
+    height: 20px;
+    top: 15px;
+    right: 0;
+    content: "";
+}
+.sc-ExperienceAnalyticsDataTable .sc-rc-handle-container {
+    position: relative;
+}
+.sc-ExperienceAnalyticsDataTable .sc-rc-handle {
+    position: absolute;
+    width: 7px;
+    cursor: ew-resize;
+    margin-left: -3px;
+}
+.sc-ExperienceAnalyticsDataTable .sc-rc-handle-border-container {
+    position: relative;
+    width: 0;
+    height: 0;
+}
+.sc-ExperienceAnalyticsDataTable .sc-rc-handle-border {
+    border-left: 1px dashed #969696;
+    position: absolute;
+    width: 1px;
+    cursor: ew-resize;
+    display: none;
+}
+.sc-ExperienceAnalyticsDataTable table.sc-rc-table-resizing {
+    cursor: ew-resize;
+}
+.sc-ExperienceAnalyticsDataTable table.sc-rc-table-resizing thead,
+.sc-ExperienceAnalyticsDataTable table.sc-rc-table-resizing thead > th,
+.sc-ExperienceAnalyticsDataTable table.sc-rc-table-resizing thead > th > a {
+    cursor: ew-resize;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table thead tr th.scrollbar-spacer {
+    padding: 0;
+    width: 15px;
+}
+.sc-ExperienceAnalyticsDataTable .mCSB_container.mCS_no_scrollbar {
+    padding-right: 15px;
+}
+.sc-ExperienceAnalyticsDataTable .sc-table tbody tr th .sc-table-sortable,
+.sc-ExperienceAnalyticsDataTable .sc-table thead th .sc-table-sortable {
+    right: 0;
+    top: 50%;
+}
+.sc-ExperienceAnalyticsDataTable .sc-ExperienceAnalyticsDataTable-body .table,
+.sc-ExperienceAnalyticsDataTable .sc-ExperienceAnalyticsDataTable-body .sc-table {
+    border-top: none;
+}
+.sc-ExperienceAnalyticsDataTable .sc-ExperienceAnalyticsDataTable-body .table tr:nth-child(even),
+.sc-ExperienceAnalyticsDataTable .sc-ExperienceAnalyticsDataTable-body .sc-table tr:nth-child(even) {
+    background: #f7f7f7;
+}
+.sc-ExperienceAnalyticsDataTable .sc-ExperienceAnalyticsDataTable-body .table tr:first-child td,
+.sc-ExperienceAnalyticsDataTable .sc-ExperienceAnalyticsDataTable-body .sc-table tr:first-child td {
+    border-top: none;
+}
+.sc-ExperienceAnalyticsDataTable .sc-ExperienceAnalyticsDataTable-body .table tr td,
+.sc-ExperienceAnalyticsDataTable .sc-ExperienceAnalyticsDataTable-body .sc-table tr td {
+    color: #2b2b2b;
+}
+/*#endregion*/

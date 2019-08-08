@@ -1,0 +1,59 @@
+﻿@using Sitecore.EmailCampaign.SampleNewsletter
+@using Sitecore.EmailCampaign.SampleNewsletter.Extensions
+@using Sitecore.Mvc
+@using Sitecore.EmailCampaign.Model.Web.Settings
+@model Sitecore.EmailCampaign.SampleNewsletter.Models.SectionViewModel
+@if (Model == null)
+{
+    if (Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        <div>Datasource item not set</div>
+    }
+
+    return;
+}
+
+@if (Request.QueryString[GlobalSettings.OnlineVersionQueryStringKey] != "1")
+{
+    <div style="margin: 10px 0; font-size: 10px; font-family: @Model.NewsletterOptions.FontFamily">
+        @Html.Sitecore().Field(Templates.Header.Fields.ViewOnlineHavingTrouble, Model.ContentItem)
+        &#32;
+        <a href="/?sc_itemid=@Sitecore.Context.Item.ID&sc_lang=@Sitecore.Context.Language.Name&@GlobalSettings.OnlineVersionQueryStringKey=1">
+            @Html.Sitecore().Field(Templates.Header.Fields.ViewOnlineClickHere, Model.ContentItem)
+        </a>
+    </div>
+}
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="@Model.SectionOptions.BackgroundColor" style="background-color: @Model.SectionOptions.BackgroundColor">
+    <tbody>
+        <tr>
+            <td colspan="4" height="20"></td>
+        </tr>
+        <tr>
+            <td width="20"></td>
+            <td>
+                @Html.Sitecore().Field(Templates.Header.Fields.Logo, Model.ContentItem)
+            </td>
+            <td align="right" style="color: @Model.SectionOptions.LinkColor">
+                @{
+                    var links = Model.ContentItem.Children.Where(c => c.IsDerived(Templates.Link.ID)).ToArray();
+                    foreach (var item in links)
+                    {
+                        @Html.Sitecore().Field(Templates.Link.Fields.Link, item, new
+                   {
+                       style = string.Format("font-weight: bold; font-size: {0}; color: {1}; font-family: {2}; text-decoration: none", Model.NewsletterOptions.ContentFontSize, Model.SectionOptions.LinkColor, @Model.NewsletterOptions.FontFamily)
+                   })
+                        if (links.Last() != item)
+                        {
+                            @:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            }
+                    }
+                }
+            </td>
+            <td width="20"></td>
+        </tr>
+        <tr>
+            <td colspan="4" height="20"></td>
+        </tr>
+    </tbody>
+</table>

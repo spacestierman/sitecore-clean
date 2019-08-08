@@ -1,0 +1,1 @@
+Add your marketing automation plugins in this folder.

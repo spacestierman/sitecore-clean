@@ -1,0 +1,69 @@
+.sc .sc-listcontrol[data-sc-id="MetricsListControl"] .sc-listcontrol-tiles {
+    overflow-y: hidden;
+}
+
+.sc .sc-listcontrol[data-sc-id="MetricsListControl"] .sc-listcontrol-tiles .sc-listcontrol-tile {
+    padding: 0 0 25px 0;
+}
+
+.sc .sc-listcontrol[data-sc-id="MetricsListControl"] .sc-listcontrol-tiles .sc-listcontrol-tile:last-of-type {
+    padding-bottom: 15px;
+}
+
+.sc .sc-listcontrol[data-sc-id="MetricsListControl"] .sc-listcontrol-tiles .sc-listcontrol-tile .sc-listcontrol-tile-content {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: default;
+}
+
+.sc-metricslist-wrapper {
+    width: 100%;
+}
+
+.sc-metricslist-contentliquid {
+    float: left;
+    width: 100%;
+}
+
+.sc-metricslist-content {
+    margin-left: 32px;
+    margin-right: 60px;
+}
+
+.sc-text.sc-metricslist-content-title {
+    margin-bottom: 0;
+}
+
+.sc-text.sc-metricslist-content-description {
+    color: #474747;
+}
+
+.sc-metricslist-leftcolumn {
+    height: 24px;
+    width: 24px;
+    float: left;
+    margin-left: -100%;
+}
+
+.sc-metricslist-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.sc-metricslist-rightcolumn {
+    width: 68px;
+    float: left;
+    margin-left: -68px;
+    text-align: right;
+}
+
+.sc-metricslist-content-value {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.sc-metricslist-content-value-unit {
+    color: #474747;
+}

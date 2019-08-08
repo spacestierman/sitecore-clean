@@ -1,0 +1,74 @@
+﻿.sc .sc-keyvaluepaireditor option {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sc .sc-keyvaluepaireditor .sc-listIterator {
+    margin-left: -10px;
+    margin-right: 1px;
+    margin-top: -8px;
+    margin-bottom: 8px;
+}
+
+.sc .sc-keyvaluepair {
+    background-color: transparent;
+    white-space: nowrap;
+    width: 100%;
+    cursor: move;
+}
+
+.sc .sc-keyvaluepair:hover  {
+    outline: 1px dashed #cccccc;
+    background-color: #e3e3e3;
+}
+
+.sc .sc-keyvaluepair td:first-child {
+    padding-left: 10px;
+}
+
+.sc .sc-keyvaluepair tr:first-child td {
+    padding-top: 8px;
+}
+
+.sc .sc-keyvaluepair tr:last-child td {
+    padding-bottom: 2px;
+}
+
+.sc .sc-keyvaluepair .sc-textbox {
+    margin-bottom: 5px;
+}
+
+.sc .sc-keyvaluepaireditor .sc-small-bottom-padding,
+.sc .sc-keyvaluepair .sc-small-bottom-padding {
+    padding-bottom: 5px;
+}
+
+.sc .sc-keyvaluepaireditor .sc-bottom-margin {
+    margin-bottom: 15px;
+}
+
+.sc .sc-keyvaluepair .sc-keyvaleditor-remove {
+    cursor: pointer;
+    line-height: 24px;
+    color: #969696; /*SC-Theme-Basic-Dark*/
+    font-size: 36px;
+    padding-left: 10px;
+}
+
+    .sc .sc-keyvaluepair .sc-keyvaleditor-remove:hover {
+        color: #5e5e5e; /*SC-Theme-Basic-X-Dark*/
+    }
+
+.sc .sc-keyvaluepair .sc-keyvaleditor-add {
+    text-align: right;
+}
+
+.sc .sc-keyvaluepair .sc-keyvaleditor-label {
+    width: 1px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.sc .sc-keyvaluepair .sc-keyvaleditor-value {
+    width: 100%;
+}

@@ -1,0 +1,145 @@
+﻿.sc-action-bar {
+    height: auto;
+    min-height: 60px;
+}
+
+.sc-action-bar:after {
+    content: " ";
+    display: table;
+    clear: both; 
+}
+
+.sc-action-bar .sc-applicationHeader-back {
+    float: none;
+}
+
+.sc-action-bar .sc-applicationHeader-back .sc-dropdownbutton select {
+    width: auto;
+}
+
+.sc-action-bar .sc-applicationHeader-back .sc-buttontextbox[data-sc-id="SearchTextBox"] {
+    float: left;
+    margin-right: 15px;
+    max-width: 305px;
+}
+
+.sc-action-bar .sc-applicationHeader-back .sc-dropdownbutton[data-sc-id="SortDropButton"] {
+    float: left;
+}
+
+.sc-action-bar .sc-applicationHeader-back .sc-dropdownbutton[data-sc-id="SortDropButton"] button {
+    max-width: 100%;
+}
+
+.sc-action-bar .sc-applicationHeader-back .sc-dropdownbutton[data-sc-id="SortDropButton"] button .sc-dropdownbutton-text {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sc-action-bar .sc-applicationHeader-back .sc-dropdownbutton[data-sc-id="SortDropButton"] .sc-dropdownbutton-contentpanel {
+    z-index: 3;
+}
+
+.sc-action-bar .sc-applicationHeader-back .sc-dropdownbutton-content {
+    padding: 0
+}
+
+.sc-action-bar .sc-applicationHeader-actions .sc-actionpanel {
+    height: auto;
+}
+
+.sc-action-bar .sc-applicationHeader-actions .sc-contextToggleButton {
+    float: right;
+    margin-left: 15px;
+}
+
+.sc-dialogWindow[data-sc-id="CreateFormDialog"] .modal-body .sc-dialogWindow-body-container {
+    padding: 0;
+}
+
+.sc-dialogWindow[data-sc-id="CreateFormDialog"] .modal-body {
+    overflow-y: hidden !important;
+}
+
+.sc-itemtreeview {
+    background-color: white;
+    border: 1px solid #ccc;
+    height: 400px;
+}
+
+div[data-sc-id="OverviewImageInnerBorder3"] {
+    max-height: 40px;
+}
+
+div[data-sc-id="OverviewImageInnerBorder0"],
+div[data-sc-id="OverviewImageInnerBorder1"],
+div[data-sc-id="OverviewImageInnerBorder2"] {
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 2px 2px 0 0;
+    overflow: hidden;
+    max-height: 15px;
+}
+
+div[data-sc-id="OverviewImageInnerBorder2"] {
+    z-index: 8;
+    max-width: 220px;
+}
+
+div[data-sc-id="OverviewImageInnerBorder1"] {
+    z-index: 9;
+    max-width: 250px;
+}
+
+div[data-sc-id="OverviewImageInnerBorder0"] {
+    z-index: 10;
+    max-width: 280px;
+    max-height: 280px;
+    border-radius: 2px;
+}
+
+.sc-grid[data-sc-id="OverviewGrid"] .sc-text[data-sc-id$="Text"] {
+    color: #5e5e5e;
+}
+
+.sc-grid[data-sc-id="OverviewGrid"] div.sc-bottom-padding {
+    padding-bottom: 20px;
+}
+
+span[data-sc-id="ListOfCheckedForms"] {
+    white-space: pre;
+}
+
+div[data-sc-id="CustomDatePickerBorder"] input.sc-datepicker.form-control {
+    max-width: none;
+}
+
+div[data-sc-id="AnalyticsBorder"] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sc.modal-open .ui-widget-content.sc-datepicker-dropdown {
+    z-index: 9999 !important;
+}
+
+.sc-contextdetails .sc-contextdetails-title {
+    padding-bottom: 0;
+}
+
+.sc-contextdetails .sc-contextdetails-content {
+    padding-top: 10px; 
+}
+
+.sc-contextdetails .nv-y.nv-axis text {
+    display: none;
+}
+
+.sc-border[data-sc-id='MetricsChartBorder'].sc-compact-chart g:nth-child(5) {
+    fill: #ccc !important;
+}

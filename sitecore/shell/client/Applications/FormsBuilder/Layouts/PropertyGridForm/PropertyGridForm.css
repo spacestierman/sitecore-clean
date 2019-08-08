@@ -1,0 +1,7 @@
+﻿.sc-form.sc-grid.sc-form-context-pane .sc-expander[data-sc-id="AdvancedSettings"] .sc-formcomponent label {
+    padding-bottom: 0;
+}
+
+.sc-form.sc-grid.sc-form-context-pane .sc-expander[data-sc-id="AdvancedSettings"] .sc-bottom-padding {
+    padding-bottom: 25px;
+}

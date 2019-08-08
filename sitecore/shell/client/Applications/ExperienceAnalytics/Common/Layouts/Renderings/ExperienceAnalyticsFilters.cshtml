@@ -1,0 +1,69 @@
+﻿@using Sitecore
+@using Sitecore.ExperienceAnalytics.Client
+@using Sitecore.ExperienceAnalytics.Client.Mvc
+@using Sitecore.ExperienceAnalytics.Core.Extensions
+@using Sitecore.Mvc
+@using Sitecore.Web.UI.Controls.Common.Renderings
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@using Globals = Sitecore.ExperienceAnalytics.Client.Globals
+@model Sitecore.ExperienceAnalytics.Client.Mvc.Presentation.ExperienceAnalyticsFiltersViewModel
+@{
+    var rendering = Model.Control;
+}
+
+@EmbedFilters(rendering)
+
+@helper EmbedFilters(Sitecore.Web.UI.Controls.Common.UserControls.UserControl rendering)
+{
+var renderingId = rendering.ControlId;
+var helper = new RenderingHelper(Html.HtmlHelper(), renderingId);
+
+var selectedSubsiteName = "{Binding " + renderingId + "SubsiteFilter.SelectedSubsiteName}";
+var selectedMetricName = "{Binding " + renderingId + "MetricsDropDown.SelectedMetricName}";
+
+var fromDate = DateUtil.ToServerTime(DateTime.UtcNow).AddMonths(-1).ToDateRangeFormat();
+var toDate = DateUtil.ToServerTime(DateTime.UtcNow).ToDateRangeFormat();
+
+var dateRangeText = string.Concat(fromDate, " - ", toDate);
+
+
+helper.MakeBorder("ContentWrapper", renderingId + "BarWrapper", contentWrapper =>
+{
+    if (Model.IsMetricsDropDownIncluded)
+    {
+        helper.MakeToggleButton("MetricsToggleButton", contentWrapper, selectedMetricName, true);
+    }
+
+    helper.MakeToggleButton("FilterToggleButton", contentWrapper, selectedSubsiteName, true);
+
+    helper.MakeToggleButton("DateRangeToggleButton", contentWrapper, dateRangeText, true);
+});
+
+// Rendering
+    <div @rendering.HtmlAttributes>
+        @Html.Sitecore().Controls().Rendering(Html.HtmlHelper(), Globals.Bcl.Renderings.Containers.Border, renderingId + "BarWrapper", "", new
+   {
+   })
+
+        @if (Model.IsMetricsDropDownIncluded)
+        {
+            @Html.Sitecore().Controls().Rendering(Html.HtmlHelper(), Globals.Layouts.Renderings.MetricsDropDown, renderingId + "MetricsDropDown", "", new
+       {
+           IsVisible = false,
+           AllowedMetrics = rendering.GetString("AllowedMetrics"),
+           DefaultSelectedMetric = rendering.GetString("DefaultSelectedMetric")
+       })
+        }
+
+        @Html.Sitecore().Controls().Rendering(Html.HtmlHelper(), Globals.Layouts.Renderings.SubsiteFilter, renderingId + "SubsiteFilter", "", new
+   {
+       IsVisible = false
+   })
+
+        @Html.Sitecore().Controls().Rendering(Html.HtmlHelper(), Globals.Layouts.Renderings.DateRangeFilter, renderingId + "DateRangeFilter", "", new
+   {
+       IsVisible = false
+   })
+
+    </div>
+}

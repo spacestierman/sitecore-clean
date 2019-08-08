@@ -1,0 +1,45 @@
+.sc .sc-submitactionslist-tilelist-image {
+    float: left;
+    margin-right: 10px;
+    min-height: 48px;
+    min-width: 48px;
+    background-color: #fff;
+    border: solid 1px #ccc;
+}
+
+.sc .sc-submitactionslist-tilelist-image img {
+    height: 32px;
+    width: 32px;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.sc .sc-submitactionslist-tilelist-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.sc .sc-submitactionslist-tilelist-texts p {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sc .sc-submitactionslist-tilelist-name,
+.sc .sc-submitactionslist-tilelist-description {
+    cursor: default;
+    width: 100%;
+}
+
+.sc .sc-submitactionslist-tilelist-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #131313;
+}
+
+.sc .sc-submitactionslist-tilelist-description {
+    color: #474747;
+}

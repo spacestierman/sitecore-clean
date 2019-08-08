@@ -1,0 +1,18 @@
+﻿.sc .sc-listcontrol[data-sc-id="LanguageListControl"]  .sc-listcontrol-tiles .sc-listcontrol-tile {
+    padding: 0;
+}
+
+.sc .sc-listcontrol[data-sc-id="LanguageListControl"]  .sc-listcontrol-tiles .sc-listcontrol-tile .sc-listcontrol-tile-content {
+    cursor: pointer;
+    border: 0;
+    padding: 5px 15px;
+}
+
+.sc-language-tilelist-text {
+    white-space: nowrap;
+    padding: 0 0 4px 0;
+}
+
+.sc-language-tilelist-description {
+    color: #666666;
+}

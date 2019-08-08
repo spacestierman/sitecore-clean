@@ -1,0 +1,345 @@
+﻿.sc-applicationContent-info .sc-MessageInfo,
+.sc-applicationContent-info .sc-MessageOverview,
+.sc-applicationContent-info .sc-MessagePreview {
+  margin-right: 15px;
+  margin-left: -15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.sc-applicationContent-info .sc-MessageInfo h3,
+.sc-applicationContent-info .sc-MessageOverview h3,
+.sc-applicationContent-info .sc-MessagePreview h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}
+.sc .sc-message-progress {
+  width: 100%;
+}
+.sc .sc-message-progress-table {
+  width: 100%;
+  background-color: white;
+  table-layout: fixed;
+}
+.sc .sc-message-progress-table td {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 41px;
+  border-bottom: solid 1px #f0f0f0;
+}
+.sc .sc-message-progress-table tr td:last-child {
+  font-weight: bold;
+}
+.sc .sc-message-progress-table tr td:last-child a {
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  display: block;
+}
+.sc .sc-message-progress-table .sc-message-progress-value {
+  text-align: right;
+  width: 50%;
+}
+.sc .row div[data-sc-id="MainBorder"] {
+  padding: 0 15px 15px 15px;
+}
+.sc-applicationContent .sc-applicationHeader .sc-ecm-managerroot .sc-dropdownbutton .sc-dropdownbutton-contentpanel {
+  z-index: 3;
+}
+.sc-applicationContent .sc-applicationHeader .sc-applicationHeader-contextSwitcher {
+  float: right;
+}
+.sc-applicationContent .sc-applicationHeader .sc-applicationHeader-contextSwitcher button[data-sc-id="DefaultSettingsButton"] {
+  float: right;
+  margin-left: 10px;
+}
+.sc-applicationContent .sc-applicationHeader .sc-applicationHeader-contextSwitcher div[data-sc-id="EmailManagerRoot"] {
+  float: left;
+  margin-right: 10px;
+}
+.sc-applicationContent .sc-applicationHeader .sc-applicationHeader-breadCrumb .sc-text[data-sc-id="DashboardTitle"] {
+  color: white;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+.sc-applicationContent .sc-applicationHeader .sc-applicationHeader-breadCrumb .sc-breadcrumb.ecm {
+  display: inline-block;
+}
+.sc-applicationContent .sc-applicationHeader .sc-applicationHeader-breadCrumb .sc-breadcrumb.ecm > ul > li:last-child {
+  padding-right: 2px;
+}
+.sc-applicationContent .sc-applicationHeader .sc-applicationHeader-breadCrumb .sc-breadcrumb.ecm > ul > li:last-child:after {
+  margin-left: 0;
+}
+.sc-applicationContent .sc-applicationHeader .sc-applicationHeader-breadCrumb .sc-breadcrumb.ecm > ul > li a {
+  color: white;
+}
+.sc-applicationContent .sc-applicationHeader .sc-applicationHeader-breadCrumb .sc-breadcrumb.ecm > ul > li a:hover {
+  color: white !important;
+  text-decoration: underline;
+}
+.sc-applicationContent .sc-applicationHeader .sc-applicationHeader-breadCrumb span[data-sc-id="BreadCrumbMessageName"] {
+  display: inline-block;
+  color: white;
+  position: absolute;
+  background: url("/sitecore/shell/client/Speak/Assets/img/Speak/Common/16x16/white/separator.png") no-repeat 0 5px;
+  padding-left: 15px;
+}
+.sc-applicationContent .sc-applicationHeader span.sc-text[data-sc-id="HeaderTitle"] {
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  padding-bottom: 2px;
+  min-height: 36px;
+}
+.sc-applicationContent .sc-applicationHeader .sc-applicationHeader-row2 .sc-applicationHeader-actions > div {
+  float: right;
+}
+.sc-applicationContent .sc-applicationHeader .sc-applicationHeader-row2 .sc-applicationHeader-actions div[data-sc-id="EmailManagerRoot"] {
+  margin-right: 10px;
+}
+.sc-applicationContent .sc-applicationHeader .sc-applicationHeader-row2 .sc-applicationHeader-actions button.btn.sc-button.btn-primary {
+  float: right;
+  margin-left: 10px;
+}
+.sc-applicationHeader > .sc-messageBar,
+.sc-applicationContent-main > .sc-messageBar {
+  margin-top: -1px;
+}
+.sc-applicationHeader > .sc-messageBar .sc-messageBar-messages-wrap .alert,
+.sc-applicationContent-main > .sc-messageBar .sc-messageBar-messages-wrap .alert {
+  margin: 0;
+  padding: 1px 0 0 0;
+}
+.sc-advancedcombobox.has-error .select2-choice {
+  border: #a94442 1px solid;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.sc-text[data-sc-id="SenderValidateIndicator"]:before {
+  vertical-align: top;
+  text-align: center;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  float: left;
+  margin-top: 10px;
+  margin-left: -15px;
+  font-size: 13px;
+}
+.sc-text[data-sc-id="SenderValidateIndicator"][data-sc-indicator="1"]:before {
+  content: '✖';
+  color: #f12b2b;
+}
+.sc-text[data-sc-id="SenderValidateIndicator"][data-sc-indicator="2"]:before {
+  content: '!';
+  font-weight: bold;
+  color: #ffd800;
+}
+.sc-text[data-sc-id="SenderValidateIndicator"][data-sc-indicator="3"]:before {
+  content: '✔';
+  color: #00c22e;
+}
+html .sc-hoverable:hover {
+  -webkit-box-shadow: 0px 0px 0px 1px #6ac0e2;
+  -moz-box-shadow: 0px 0px 0px 1px #6ac0e2;
+  box-shadow: 0px 0px 0px 1px #6ac0e2;
+}
+html .sc-focusable:focus {
+  -webkit-box-shadow: 0px 0px 0px 2px #6ac0e2;
+  -moz-box-shadow: 0px 0px 0px 2px #6ac0e2;
+  box-shadow: 0px 0px 0px 2px #6ac0e2;
+}
+.row[data-sc-id="OverviewRowPanel"] > div:nth-child(odd) {
+  padding-right: 0;
+}
+.sc-exm-Card,
+.sc-border[data-sc-id=LandingPanelBorder] {
+  margin-top: 15px;
+}
+.sc-exm-Card .sc-advancedExpander,
+.sc-border[data-sc-id=LandingPanelBorder] .sc-advancedExpander {
+  margin-bottom: 0;
+}
+@media (max-width: 1350px) {
+  .row[data-sc-id="OverviewRowPanel"] > div {
+    width: 100%;
+  }
+  .row[data-sc-id="OverviewRowPanel"] > div:nth-child(odd) {
+    padding-right: 15px !important;
+  }
+  .row[data-sc-id="RecipientActivityRowPanel"] div[data-sc-id="OpenClickRateColumnPanel"] {
+    width: 100%;
+  }
+  .row[data-sc-id="RecipientActivityRowPanel"] div[data-sc-id="TimeOfTheDayColumnPanel"],
+  .row[data-sc-id="RecipientActivityRowPanel"] div[data-sc-id="ActivityCardsColumnPanel"] {
+    width: 50%;
+    margin-top: 15px;
+  }
+  .row[data-sc-id="RecipientActivityRowPanel"] div[data-sc-id="TimeOfTheDayColumnPanel"] {
+    padding-left: 15px !important;
+  }
+}
+@media (min-width: 590px) and (max-width: 1350px) {
+  .sc-LandingPagesReport .sc-LandingInfo {
+    display: table;
+  }
+  .sc-LandingPagesReport .sc-LandingInfo span[data-sc-id$="Description"] {
+    max-width: 100% !important;
+  }
+}
+@media (max-width: 992px) {
+  .sc-applicationContent-info {
+    margin-left: 30px;
+  }
+  div.row[data-sc-id="RecipientActivityRowPanel"] div.row[data-sc-id="RecipientActivityMiddleRowPanel"] .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  div.row[data-sc-id="RecipientActivityRowPanel"] div[data-sc-id="TimeOfTheDayColumnPanel"],
+  div.row[data-sc-id="RecipientActivityRowPanel"] div[data-sc-id="ActivityCardsColumnPanel"] {
+    width: 50%;
+    float: left;
+  }
+  div.row[data-sc-id=ValueAndEngagementRowPanel] .col-md-4,
+  div.row[data-sc-id=LandingPageRowPanel] .col-md-4 {
+    width: 33.33%;
+    float: left;
+  }
+  div.row[data-sc-id=ValueAndEngagementRowPanel] .col-md-8,
+  div.row[data-sc-id=LandingPageRowPanel] .col-md-8 {
+    width: 66.67%;
+    float: left;
+  }
+}
+@media (max-width: 840px) {
+  div.row[data-sc-id=LandingPageRowPanel] .col-md-4 {
+    width: 50%;
+  }
+}
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-advancedExpander-bodywrapper,
+.sc-RecipientActivityReportExtended .sc-border[data-sc-id=LandingPanelBorder] .sc-advancedExpander-bodywrapper {
+  overflow: visible;
+}
+.sc-border[data-sc-id$="ActivityCard"] {
+  -webkit-box-shadow: 0 2px 4px 0 #c6c6c6;
+  -moz-box-shadow: 0 2px 4px 0 #c6c6c6;
+  box-shadow: 0 2px 4px 0 #c6c6c6;
+  background: #fff;
+}
+.sc-border[data-sc-id$="ActivityCard"] .sc-text-title[data-sc-id$="TitleCard"] {
+  font-size: 1.3em;
+}
+.sc-border[data-sc-id$="ActivityCard"] .sc-ScoreCard {
+  padding: 5px 0;
+}
+.sc-border[data-sc-id$="ActivityCard"] .sc-ScoreCard span[data-sc-id$="TextValue"],
+.sc-border[data-sc-id$="ActivityCard"] .sc-ScoreCard a[data-sc-id$="LinkValue"] {
+  line-height: 130%;
+}
+div.row[data-sc-id="RecipientActivityRowPanel"] > div .sc-border[data-sc-id$="ActivityCard"] {
+  margin-top: 15px;
+}
+div.row[data-sc-id="RecipientActivityRowPanel"] > div .sc-border[data-sc-id$="ActivityCard"]:first-child {
+  margin-top: 0;
+}
+div.row[data-sc-id="RecipientActivityRowPanel"] > div[data-sc-id="TimeOfTheDayColumnPanel"] {
+  padding: 0;
+}
+div.row[data-sc-id="RecipientActivityRowPanel"] > div[data-sc-id="TimeOfTheDayColumnPanel"] .sc-ScoreCard,
+div.row[data-sc-id="RecipientActivityRowPanel"] > div[data-sc-id="ActivityCardsColumnPanel"] .sc-ScoreCard {
+  padding-top: 0;
+}
+div.row[data-sc-id="RecipientActivityRowPanel"] > div[data-sc-id="TimeOfTheDayColumnPanel"] .sc-ScoreCard span[data-sc-id$="ScoreCardTitle"],
+div.row[data-sc-id="RecipientActivityRowPanel"] > div[data-sc-id="ActivityCardsColumnPanel"] .sc-ScoreCard span[data-sc-id$="ScoreCardTitle"] {
+  font-size: 1.3em;
+}
+div.row[data-sc-id="RecipientActivityRowPanel"] > div[data-sc-id="TimeOfTheDayColumnPanel"] .sc-ScoreCard span[data-sc-id$="ScoreCardTextValue"],
+div.row[data-sc-id="RecipientActivityRowPanel"] > div[data-sc-id="ActivityCardsColumnPanel"] .sc-ScoreCard span[data-sc-id$="ScoreCardTextValue"] {
+  line-height: 160%;
+}
+.sc-border[data-sc-id=ValueAndEngagementBorderOpenClick] {
+  -webkit-box-shadow: 0 2px 4px 0 #c6c6c6;
+  -moz-box-shadow: 0 2px 4px 0 #c6c6c6;
+  box-shadow: 0 2px 4px 0 #c6c6c6;
+  background: #fff;
+  margin-top: 15px;
+}
+.sc-border[data-sc-id=ValueAndEngagementBorderOpenClick] .sc-text-title[data-sc-id$="TitleCard"] {
+  font-size: 1.3em;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+.sc-border[data-sc-id=ValueAndEngagementBorderOpenClick] .sc-ReportingRate {
+  padding: 0 0 15px 15px;
+}
+.sc-border[data-sc-id=LandingPanelBorder] .sc-border[data-sc-id=LandingPagePerformanceBorder] {
+  -webkit-box-shadow: 0 2px 4px 0 #c6c6c6;
+  -moz-box-shadow: 0 2px 4px 0 #c6c6c6;
+  box-shadow: 0 2px 4px 0 #c6c6c6;
+  background: #fff;
+  margin-top: 15px;
+}
+.sc-border[data-sc-id=LandingPanelBorder] .sc-border[data-sc-id=LandingPagePerformanceBorder] .sc-ScoreCard {
+  padding: 10px 0;
+}
+.sc-border[data-sc-id=LandingPanelBorder] .sc-border[data-sc-id=LandingPagePerformanceBorder] .sc-ScoreCard > div {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sc-border[data-sc-id=LandingPanelBorder] .sc-border[data-sc-id=LandingPagePerformanceBorder] .sc-ScoreCard a.sc-hyperlinkbutton[data-sc-id$=LinkValue],
+.sc-border[data-sc-id=LandingPanelBorder] .sc-border[data-sc-id=LandingPagePerformanceBorder] .sc-ScoreCard .sc-text[data-sc-id$=TextValue] {
+  line-height: 150%;
+  max-width: 100%;
+}
+.sc-border[data-sc-id=LandingPanelBorder] .sc-border[data-sc-id=TotalClicksListBorder] {
+  background: #fff;
+  border: 1px solid #d6d6d6;
+  margin-top: 15px;
+}
+.sc-border[data-sc-id=LandingPanelBorder] .sc-border[data-sc-id=TotalClicksListBorder] .sc-buttontextbox {
+  margin: 10px;
+}
+.sc-border[data-sc-id=LandingPanelBorder] .sc-border[data-sc-id=TotalClicksListBorder] div[data-sc-id=TopClicksLeftColumnPanel] {
+  padding-left: 35px;
+  line-height: 56px;
+}
+.sc-border[data-sc-id=LandingPanelBorder] .sc-border[data-sc-id=TotalClicksListBorder] .sc-text[data-sc-id=TotalClicksText] {
+  font-weight: bold;
+}
+[data-sc-id=CampaignReportRecipientActivityBorder] [data-sc-id=EventListsSubTabs] {
+  margin-top: 15px;
+}
+[data-sc-id=TimeOfDayActivityCard] [data-sc-id=TimeOfDayRow] {
+  margin-top: -15px;
+}
+[data-sc-id=TimeOfDayActivityCard] [data-sc-id=TimeOfDayRow] .sc-text[data-sc-id$=TextValue] {
+  width: 110px;
+  display: inline-block;
+}
+[data-sc-id=MessagePreview] img.sc-emailpreview[data-sc-id=MessagePreviewImage] {
+  cursor: pointer;
+  width: 200px;
+}
+@media (min-width: 1800px) {
+  [data-sc-id=MessagePreview] img.sc-emailpreview[data-sc-id=MessagePreviewImage] {
+    width: 400px;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1800px) {
+  [data-sc-id=MessagePreview] img.sc-emailpreview[data-sc-id=MessagePreviewImage] {
+    width: 300px;
+  }
+}
+@media (min-width: 500px) and (max-width: 990px) {
+  [data-sc-id=MessagePreview] img.sc-emailpreview[data-sc-id=MessagePreviewImage] {
+    width: 400px;
+  }
+}

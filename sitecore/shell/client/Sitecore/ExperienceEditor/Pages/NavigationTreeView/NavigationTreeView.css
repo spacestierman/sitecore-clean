@@ -1,0 +1,14 @@
+﻿[data-sc-id="ContentBorder"] {
+  width: 300px;
+  overflow: auto;
+}
+[data-sc-id="NavigationTreeView"]{
+	  height: 100vh;
+}
+
+.disabledItem {
+  cursor: pointer;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  border: none;
+}

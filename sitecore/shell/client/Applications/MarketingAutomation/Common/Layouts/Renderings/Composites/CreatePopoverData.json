@@ -1,0 +1,45 @@
+﻿[
+  {
+    "title": "Blank automation plan",
+    "description": "Create a Marketing Automation plan from scratch.",
+    "mediaurl": "http://www.umbrella.bg/wp-content/uploads/2015/01/settings53-e1422571304267.png",
+    "Id": "000-000",
+    "$url": "/sitecore/client/Applications/MarketingAutomation/Pages/PlanEditor"
+  },
+  {
+    "title": "Template name",
+    "description": "Short description of what the plan is best used for. Lorem ipsum dolor sit amet, consectetur.",
+    "mediaurl": "http://srilankafootballassociation.com/judek/png/home5.png",
+    "Id": "000-001"
+  },
+  {
+    "title": "Template name",
+    "description": "Short description of what the plan is best used for. Lorem ipsum dolor sit amet, consectetur.",
+    "mediaurl": "http://icons.iconarchive.com/icons/icons8/ios7/64/Industry-Electronics-icon.png",
+    "Id": "000-002"
+  },
+  {
+    "title": "Template name",
+    "description": "Short description of what the plan is best used for. Lorem ipsum dolor sit amet, consectetur.",
+    "mediaurl": "http://www.fontsaddict.com/images/icons/png/thumb/3356.png",
+    "Id": "000-003"
+  },
+  {
+    "title": "Template name",
+    "description": "Short description of what the plan is best used for. Lorem ipsum dolor sit amet, consectetur.",
+    "mediaurl": "http://xadat.nl/wp-content/uploads/2015/07/right67.png",
+    "Id": "000-004"
+  },
+  {
+    "title": "Template name",
+    "description": "Short description of what the plan is best used for. Lorem ipsum dolor sit amet, consectetur.",
+    "mediaurl": "http://www.fontsaddict.com/images/icons/png/thumb/2848.png",
+    "Id": "000-005"
+  },
+  {
+    "title": "Template name",
+    "description": "Short description of what the plan is best used for. Lorem ipsum dolor sit amet, consectetur.",
+    "mediaurl": "http://www.psychologycharts.com/images/pdfs.png",
+    "Id": "000-006"
+  }
+]

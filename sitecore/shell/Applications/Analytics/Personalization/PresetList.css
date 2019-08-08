@@ -1,0 +1,166 @@
+.presetList {
+    -moz-box-sizing: border-box;
+    border: 1px solid #e3e3e3;
+    box-sizing: border-box;
+    height: calc(100% - 33px);
+    position: relative;
+    width: 100%;
+}
+
+.presetList .RadListBox {
+    height: 100%;
+    width: 100%;
+}
+
+.presetList .scPresetItemTemplate {
+    border: 0;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.presetList .RadListBox_Default .rlbHeader {
+    background-color: #E9E9E9;
+    background-image: none;
+    border-bottom: 1px solid #C9C9C9;
+}
+
+.presetList .RadListBox_Default .rlbGroup { border: 0; }
+
+.presetList .rlbTemplateTable .rlbGroupCell .rlbGroupContainer .rlbGroup .rlbList {
+    margin: 0;
+    padding: 0;
+}
+
+.presetList .rlbTemplateTable .rlbGroupCell .rlbGroupContainer .rlbGroup .rlbList .rlbItem {
+    border: 0px;
+    border-bottom: 1px solid #e3e3e3;
+    zoom: 1;
+}
+
+.presetList .rlbTemplateTable .rlbGroupCell .rlbGroupContainer .rlbGroup .rlbList .rlbActive { padding: 2px 5px; }
+
+.presetList .rlbTemplateTable .rlbGroupCell .rlbGroupContainer .rlbGroup .rlbList .rlbSelected {
+    background-color: #D0EBF6;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.presetList .rlbTemplateTable .rlbGroupCell .rlbGroupContainer .rlbGroup .rlbList .rlbHovered {
+    background-color: #E3E3E3;
+    border-bottom: 1px solid #e3e3e3;
+    color: #131313;
+}
+
+.presetList .RadListBox_Default .rlbTemplateContainer {
+    border: 0;
+    height: 100%;
+}
+
+.ie .presetList .RadListBox_Default .rlbTemplateContainer {
+    box-sizing: border-box;
+    padding-bottom: 26px;
+}
+
+.RadComboBox .rcbInputCell .rcbInput { min-height: 10px; }
+
+
+
+.on,
+.off {
+    background-color: transparent;
+    background-image: url(/sitecore/shell/~/icon/Office/24x24/switch3_off.png.aspx);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 8px;
+    outline: none;
+    padding: 0 30px 0 0;
+}
+
+.on { background-image: url(/sitecore/shell/~/icon/Office/24x24/switch3_on.png.aspx); }
+
+.on:hover,
+.off:hover { color: #131313; }
+
+
+.presetList .rlbTemplateTable .rlbGroupCell .rlbGroupContainer .rlbGroup .rlbList .rlbDisabled span { }
+
+.rlbGroup.rlbGroupRight { height: 100%; }
+
+.RadarChart {
+    height: 230px;
+    margin: 10px;
+    padding: 0;
+    width: 370px;
+}
+
+.selectPresetContainer {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.rlbGroupContainer {
+    height: 100% !important;
+    overflow: auto;
+}
+
+.allPreset {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.presets {
+    padding: 15px;
+    width: 25%;
+}
+
+.presetMoveButtons {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    width: 100px;
+}
+
+.presetMoveButtons .scButton { margin: 5px 0; }
+
+.presetMoveButtons > div {
+    position: absolute;
+    top: 40%;
+}
+
+.selectedPresets {
+    padding: 15px 15px 15px 5px;
+    width: 25%;
+}
+
+.presetValues {
+    bottom: 5px;
+    padding-bottom: 20px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 395px;
+    z-index: 2;
+}
+
+.selectPresetContainer .title {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.rlbGroupCell { height: 100% !important; }
+
+.profileKeyName { height: 30px; }

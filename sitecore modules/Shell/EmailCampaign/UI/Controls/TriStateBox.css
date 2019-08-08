@@ -1,0 +1,17 @@
+﻿/*TriStateBox*/
+.triStateBoxOn
+{
+	margin: 3px 0px 3px 4px;
+	vertical-align: middle;
+}
+
+.triStateBoxOff
+{
+	margin: 3px 3px 3px 0px; 
+	vertical-align: middle;
+}
+
+.triStateBoxText
+{
+	vertical-align: middle;
+}

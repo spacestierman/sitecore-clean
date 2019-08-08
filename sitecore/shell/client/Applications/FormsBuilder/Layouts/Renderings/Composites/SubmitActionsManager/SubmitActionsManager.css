@@ -1,0 +1,57 @@
+.sc .sc-listcontrol[data-sc-id="SubmitActionsListControl"] .sc-listcontrol-tiles .sc-listcontrol-tile,
+.sc .sc-listcontrol[data-sc-id="OptionsListControl"] .sc-listcontrol-tiles .sc-listcontrol-tile {
+    padding: 0;
+}
+
+.sc .sc-listcontrol[data-sc-id="OptionsListControl"] .sc-listcontrol-tiles .sc-listcontrol-tile .sc-listcontrol-tile-content,
+.sc .sc-listcontrol[data-sc-id="SubmitActionsListControl"] .sc-listcontrol-tiles .sc-listcontrol-tile .sc-listcontrol-tile-content {
+    padding: 5px;
+    border: 0;
+}
+
+.sc .sc-listcontrol[data-sc-id="SubmitActionsListControl"] .sc-listcontrol-tiles .sc-listcontrol-tile .sc-listcontrol-tile-content {
+    display: flex;
+}
+
+
+.sc .sc-listcontrol[data-sc-id="SubmitActionsListControl"] .sc-listcontrol-tiles .sc-listcontrol-tile:not(:hover):not(.selected) .sc-listcontrol-tile-content {
+    background: transparent;
+}
+
+.sc .sc-listcontrol[data-sc-id="OptionsListControl"] .sc-listcontrol-content {
+    max-height: 200px;
+    overflow: auto;
+}
+
+.sc .sc-expander[data-sc-id="SubmitActionsExpander"] .sc-expander-body {
+    overflow: inherit;
+}
+
+.sc .sc-dropdownbutton[data-sc-id="Add"] .sc-dropdownbutton-content {
+    padding: 0;
+    width: 240px;
+}
+
+.sc .sc-submitactionsmanager .sc-dropdownbutton {
+    float: right;
+}
+.sc .sc-submitactionsmanager .btn {
+    float: right;
+    margin-left: 5px;
+}
+
+.sc .sc-submitactionsmanager [data-sc-id="SpacingBorder"] {
+    clear: both;
+}
+
+.sc .sc-submitactionsmanager .sc-listcontrol.sc-tilelist .sc-listcontrol-tiles {
+    overflow-y: hidden;
+}
+
+.sc-form.sc-grid.sc-form-context-pane.sc-hasrequiredfields .sc-expander[data-sc-id="SubmitActionsExpander"] .sc-formcomponent .sc-formcomponent-wrapper {
+    width: 100%
+}
+
+.sc-form.sc-grid.sc-hasrequiredfields .sc-expander[data-sc-id="SubmitActionsExpander"] .sc-global-isrequired {
+    width:0
+}

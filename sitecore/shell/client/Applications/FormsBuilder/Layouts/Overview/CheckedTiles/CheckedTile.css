@@ -1,0 +1,21 @@
+.sc .sc-checkedlist-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: default;
+    margin: 0;
+}
+
+.sc .sc-listcontrol.sc-tilelist[data-sc-id="CheckedFormsListControl"] .sc-listcontrol-tiles {
+    overflow-y: hidden;
+}
+
+.sc .sc-listcontrol.sc-tilelist[data-sc-id="CheckedFormsListControl"] .sc-listcontrol-tiles .sc-listcontrol-tile {
+    padding: 0;
+}
+
+.sc .sc-listcontrol.sc-tilelist[data-sc-id="CheckedFormsListControl"] .sc-listcontrol-tiles .sc-listcontrol-tile .sc-listcontrol-tile-content {
+    background: transparent;
+    border: 0;
+    padding: 0 0 15px 0;
+}

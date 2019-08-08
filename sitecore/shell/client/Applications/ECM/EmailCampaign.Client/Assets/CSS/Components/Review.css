@@ -1,0 +1,20 @@
+﻿.sc-border[data-sc-id="SendQuickTestVariantsTextBorder"] {
+  margin-bottom: 15px;
+}
+div[data-sc-id="SendQuickTestTextColumn"],
+div[data-sc-id="SendQuickTestTextBoxColumn"] {
+  padding-left: 0;
+}
+div[data-sc-id="SendQuickTestVariantsPresenter"] {
+  margin-top: 10px;
+}
+span.sc-text[data-sc-id="TestIdText"],
+span.sc-text[data-sc-id="TestIdValue"] {
+  float: left;
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 0.9em;
+}
+span.sc-text[data-sc-id="TestIdText"] {
+  font-weight: bold;
+}

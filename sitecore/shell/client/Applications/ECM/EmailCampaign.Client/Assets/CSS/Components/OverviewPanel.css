@@ -1,0 +1,45 @@
+﻿.sc-applicationContent-info .sc-MessageInfo,
+.sc-applicationContent-info .sc-MessageOverview,
+.sc-applicationContent-info .sc-MessagePreview {
+  margin-right: 15px;
+  margin-left: -15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.sc-applicationContent-info .sc-MessageInfo h3,
+.sc-applicationContent-info .sc-MessageOverview h3,
+.sc-applicationContent-info .sc-MessagePreview h3 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}
+.sc .sc-message-progress {
+  width: 100%;
+}
+.sc .sc-message-progress-table {
+  width: 100%;
+  background-color: white;
+  table-layout: fixed;
+}
+.sc .sc-message-progress-table td {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 41px;
+  border-bottom: solid 1px #f0f0f0;
+}
+.sc .sc-message-progress-table tr td:last-child {
+  font-weight: bold;
+}
+.sc .sc-message-progress-table tr td:last-child a {
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  display: block;
+}
+.sc .sc-message-progress-table .sc-message-progress-value {
+  text-align: right;
+  width: 50%;
+}

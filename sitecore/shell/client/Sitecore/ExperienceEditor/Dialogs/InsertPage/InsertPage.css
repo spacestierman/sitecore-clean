@@ -1,0 +1,76 @@
+﻿[data-sc-id="IconBorder"] {
+    float: left;
+    width: 48px;
+    height: 48px;
+}
+
+[data-sc-id="DialogNameText"] {
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+}
+
+[data-sc-id="DialogDescriptionText"] {
+    display: block;
+}
+
+[data-sc-id="CommandButtonsBorder"] {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+[data-sc-id="InsertOptionsBorder"] {
+    height: 350px;
+}
+
+[data-sc-id="InsertOptions"] {
+    background-color: #ffffff;
+    overflow-y: auto;
+    max-height: 100%;
+}
+
+[data-sc-id="ItemNameText"] {
+  width: 80%;
+  display: inline-block;
+  padding-left: 7px;
+  margin-left: 2px !important;
+}
+
+[data-sc-id="ItemNameBorder"] {
+    padding-left: 10px !important;
+	margin-left: 150px;
+}
+
+[data-sc-id="ItemTreeView"] {
+   float: left;
+   height: 430px;
+   width:30%;
+   border-right-style: solid;
+   border-right-color: lightgray;
+}
+
+[data-sc-id="ItemNameTextTitleLabel"] {
+    margin-left: 5px !important;
+}
+
+[data-sc-id="WarningMessageBorder"]{
+	float: left;
+	width: 70%;
+    display: table;
+    height: 0px;
+}
+
+[data-sc-id="WarningMessage"]{
+	width: 100%;
+	text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.disabledItem {
+  cursor: pointer;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  border: none;
+}

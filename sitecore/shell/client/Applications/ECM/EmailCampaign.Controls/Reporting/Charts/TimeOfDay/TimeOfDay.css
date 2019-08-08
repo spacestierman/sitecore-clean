@@ -1,0 +1,6 @@
+﻿.sc-TimeOfDayChart .nv-axislabel.custom {
+  display: none !important;
+}
+.sc-TimeOfDayChart .sc-d3-linechart {
+  margin-left: -30px;
+}

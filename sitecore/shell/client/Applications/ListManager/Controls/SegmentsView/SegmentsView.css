@@ -1,0 +1,56 @@
+﻿.sc-accordion .sc-accordion-header a.sc-accordion-chevron-link span.sc-accordion-header-chevron-glyph {
+    background: url("/sitecore/shell/client/Speak/Assets/img/Speak/Common/16x16/white/navigate_down.png") no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+    .sc-accordion .sc-accordion-header a.sc-accordion-chevron-link span.sc-accordion-header-chevron-glyph.sc-accordion2-header-chevron-glyph-open {
+        background: url("/sitecore/shell/client/Speak/Assets/img/Speak/Common/16x16/white/navigate_up.png") no-repeat;
+    }
+
+.sc-accordion .sc-accordion-body .sc-segmentview-conditioncontent-left-field {
+    padding: 0;
+}
+
+    .sc-accordion .sc-accordion-body .sc-segmentview-conditioncontent-left-field .scRule {
+        display: block !important;
+        background-color: #CCCCCC;
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+
+    .sc-accordion .sc-accordion-body .sc-segmentview-conditioncontent-left-field .scLine {
+        padding: 10px 0 10px 10px;
+        text-align: left;
+    }
+
+.sc-accordion .sc-accordion-body {
+    padding: 0;
+}
+
+    .sc-accordion .sc-accordion-body .value {
+        padding: 0 0 0 4px;
+    }
+
+    .sc-accordion .sc-accordion-body .row-fluid .span5 {
+        width: 41.669%;
+    }
+
+.sc-segmentbtn {
+    margin: 15px 5px;
+}
+
+.sc-conditions {
+    min-height: 66px;
+    border-right: 1px solid #CCCCCC;
+}
+
+    .sc-conditions .sc-empty-rules {
+        padding-top: 15px !important;
+    }
+
+    .sc-conditions > div {
+        padding-left: 10px !important;
+        color: black !important;
+    }

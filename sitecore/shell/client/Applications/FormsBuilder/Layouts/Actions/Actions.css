@@ -1,0 +1,22 @@
+﻿body {
+    background: #fff;
+}
+
+.sc ul.dynatree-container {
+    overflow: hidden;
+}
+
+html.sc-flx {
+    padding: 15px;
+}
+
+.sc-searchabledroplist[data-sc-id='CurrencyDropList'] {
+    display: inline-block;
+    padding-left: 15px;
+    width: 400px;
+}
+
+.sc-button[data-sc-id='CreateGoalButton'] {
+    position: fixed;
+    right: 15px;
+}

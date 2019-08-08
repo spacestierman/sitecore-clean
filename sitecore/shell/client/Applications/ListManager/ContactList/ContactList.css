@@ -1,0 +1,16 @@
+﻿.sc-applicationContent-info hr { margin: 0 0; }
+
+span.sc-text[data-sc-id="GeneralInformationNameAsterisk"] { color: #dc271e; }
+
+.sc-applicationContent-info .sc-border {
+    -moz-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.175);
+    -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.175);
+    background: #FFF none repeat scroll 0 0;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.175);
+}
+
+.sc-applicationContent-info .sc-border .row.sc-show-padding {
+    height: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

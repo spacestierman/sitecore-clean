@@ -1,0 +1,11 @@
+﻿.sprite-speak-ribbon-clean-ee {
+  background: url('${imgPath}') no-repeat top left; 
+  display: inline-block; 
+  vertical-align: middle;
+} 
+.sc-quickbar-button .sprite-speak-ribbon-clean-ee {
+  opacity: initial;
+  float: none;
+}
+
+.sprite-speak-ribbon-clean-ee.small { float: left; margin: 0 .4em 0 0; }

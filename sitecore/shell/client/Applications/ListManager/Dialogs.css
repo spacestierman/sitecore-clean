@@ -1,0 +1,4 @@
+div[data-sc-id=SelectContactListsDialog] .modal-body { height: auto !important; }
+div[data-sc-id=SelectSegmentDialog] .modal-body {
+    height: auto !important;
+}

@@ -1,0 +1,41 @@
+﻿@media (max-width: 992px) {
+  .sc-RecipientActivityReport .row[data-sc-id$="RowPanel"] > div.col-md-6 {
+    float: left;
+    width: 50%;
+  }
+}
+.sc-RecipientActivityReport .sc-exm-Card .sc-border[data-sc-id$="CardWrapper"].sc-show-padding {
+  padding-top: 0;
+}
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard {
+  padding: 8px 0;
+}
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard span[data-sc-id$="TextValue"],
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard a[data-sc-id$="LinkValue"] {
+  line-height: 160%;
+}
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=UnsubscribeRateScoreCard].positive span[data-sc-id$=ComparisonText],
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=BounceRateScoreCard].positive span[data-sc-id$=ComparisonText] {
+  color: #e54b43;
+}
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=UnsubscribeRateScoreCard].positive span[data-sc-id$=ComparisonText]:before,
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=BounceRateScoreCard].positive span[data-sc-id$=ComparisonText]:before {
+  background-position: left -16px;
+  transform: rotate(180deg);
+}
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=UnsubscribeRateScoreCard].negative span[data-sc-id$=ComparisonText],
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=BounceRateScoreCard].negative span[data-sc-id$=ComparisonText] {
+  color: #88bb5d;
+}
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=UnsubscribeRateScoreCard].negative span[data-sc-id$=ComparisonText]:before,
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=BounceRateScoreCard].negative span[data-sc-id$=ComparisonText]:before {
+  background-position: 0 0;
+  transform: rotate(180deg);
+}
+.sc-RecipientActivityReport .sc-exm-Card .row[data-sc-id$="TopRowPanel"] {
+  padding-bottom: 7px;
+}
+.sc-RecipientActivityReport .sc-exm-Card .row[data-sc-id$="BottomRowPanel"] {
+  margin: 0;
+  border-top: 1px solid #f0f0f0;
+}

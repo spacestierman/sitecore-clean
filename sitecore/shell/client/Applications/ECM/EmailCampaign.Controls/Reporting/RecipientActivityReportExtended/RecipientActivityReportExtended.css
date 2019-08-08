@@ -1,0 +1,133 @@
+﻿@media (max-width: 992px) {
+  .sc-RecipientActivityReport .row[data-sc-id$="RowPanel"] > div.col-md-6,
+  .sc-RecipientActivityReportExtended .row[data-sc-id$="RowPanel"] > div.col-md-6 {
+    float: left;
+    width: 50%;
+  }
+}
+.sc-RecipientActivityReport .sc-exm-Card .sc-border[data-sc-id$="CardWrapper"].sc-show-padding,
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-border[data-sc-id$="CardWrapper"].sc-show-padding {
+  padding-top: 0;
+}
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard,
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-ScoreCard {
+  padding: 8px 0;
+}
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard span[data-sc-id$="TextValue"],
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard a[data-sc-id$="LinkValue"],
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-ScoreCard span[data-sc-id$="TextValue"],
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-ScoreCard a[data-sc-id$="LinkValue"] {
+  line-height: 160%;
+}
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=UnsubscribeRateScoreCard].positive span[data-sc-id$=ComparisonText],
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=BounceRateScoreCard].positive span[data-sc-id$=ComparisonText],
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-ScoreCard[data-sc-id$=UnsubscribeRateScoreCard].positive span[data-sc-id$=ComparisonText],
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-ScoreCard[data-sc-id$=BounceRateScoreCard].positive span[data-sc-id$=ComparisonText] {
+  color: #e54b43;
+}
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=UnsubscribeRateScoreCard].positive span[data-sc-id$=ComparisonText]:before,
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=BounceRateScoreCard].positive span[data-sc-id$=ComparisonText]:before,
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-ScoreCard[data-sc-id$=UnsubscribeRateScoreCard].positive span[data-sc-id$=ComparisonText]:before,
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-ScoreCard[data-sc-id$=BounceRateScoreCard].positive span[data-sc-id$=ComparisonText]:before {
+  background-position: left -16px;
+  transform: rotate(180deg);
+}
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=UnsubscribeRateScoreCard].negative span[data-sc-id$=ComparisonText],
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=BounceRateScoreCard].negative span[data-sc-id$=ComparisonText],
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-ScoreCard[data-sc-id$=UnsubscribeRateScoreCard].negative span[data-sc-id$=ComparisonText],
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-ScoreCard[data-sc-id$=BounceRateScoreCard].negative span[data-sc-id$=ComparisonText] {
+  color: #88bb5d;
+}
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=UnsubscribeRateScoreCard].negative span[data-sc-id$=ComparisonText]:before,
+.sc-RecipientActivityReport .sc-exm-Card .sc-ScoreCard[data-sc-id$=BounceRateScoreCard].negative span[data-sc-id$=ComparisonText]:before,
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-ScoreCard[data-sc-id$=UnsubscribeRateScoreCard].negative span[data-sc-id$=ComparisonText]:before,
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-ScoreCard[data-sc-id$=BounceRateScoreCard].negative span[data-sc-id$=ComparisonText]:before {
+  background-position: 0 0;
+  transform: rotate(180deg);
+}
+.sc-RecipientActivityReport .sc-exm-Card .row[data-sc-id$="TopRowPanel"],
+.sc-RecipientActivityReportExtended .sc-exm-Card .row[data-sc-id$="TopRowPanel"] {
+  padding-bottom: 7px;
+}
+.sc-RecipientActivityReport .sc-exm-Card .row[data-sc-id$="BottomRowPanel"],
+.sc-RecipientActivityReportExtended .sc-exm-Card .row[data-sc-id$="BottomRowPanel"] {
+  margin: 0;
+  border-top: 1px solid #f0f0f0;
+}
+@media (max-width: 992px) {
+  .sc-RecipientActivityReportExtended .sc-exm-Card .sc-advancedExpander-bodywrapper {
+    height: auto !important;
+  }
+  .sc-RecipientActivityReportExtended .sc-exm-Card div[data-sc-id$="RightMainColumn"] {
+    padding-left: 0 !important;
+  }
+  .sc-RecipientActivityReportExtended .sc-exm-Card div[data-sc-id$="LeftMainColumn"] {
+    padding-right: 0 !important;
+  }
+  .sc-RecipientActivityReportExtended .sc-exm-Card [data-sc-id$=InfoRightColumn] [data-sc-id$=TimeOfTheDay] {
+    display: block;
+    width: 100%;
+    left: 0;
+    padding-right: 0;
+    top: 0;
+  }
+  .sc-RecipientActivityReportExtended .sc-exm-Card .sc-border[data-sc-id$="DoughnutRightColumnBorder"] {
+    height: auto !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1280px) {
+  .sc-RecipientActivityReportExtended div[data-sc-id$="DoughnutRowPanel"] .col-md-6 {
+    padding-left: 0 !important;
+  }
+}
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-border[data-sc-id$="CardWrapper"].sc-show-padding {
+  padding-top: 15px;
+}
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-border[data-sc-id$="CardWrapper"] .row[data-sc-id$="TopRowPanel"] div[data-sc-id$="InfoLeftColumn"] {
+  padding-top: 0;
+}
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-ScoreCard[data-sc-id$="BouncedScore"] {
+  border-top: 1px solid #f0f0f0;
+}
+.sc-RecipientActivityReportExtended .sc-exm-Card .sc-ScoreCard[data-sc-id$="TotalSentScore"] .sc-text[data-sc-id$="Description"] {
+  display: inline-block;
+}
+.sc-RecipientActivityReportExtended .sc-exm-Card div[data-sc-id$="DoughnutLeftColumn"] {
+  padding-right: 0;
+  padding-top: 45px;
+}
+.sc-RecipientActivityReportExtended .sc-exm-Card .row[data-sc-id$="TopRowPanel"] {
+  height: 185px;
+}
+.sc-RecipientActivityReportExtended .sc-exm-Card div[data-sc-id$="LeftMainColumn"] {
+  padding-left: 0;
+  padding-right: 10px;
+}
+.sc-RecipientActivityReportExtended .sc-exm-Card div[data-sc-id$="RightMainColumn"] {
+  padding: 0;
+}
+.sc-RecipientActivityReportExtended .sc-exm-Card div[data-sc-id$="RightMainColumn"] .row[data-sc-id$=InfoBottomRowPanel] {
+  border-top: none;
+}
+.sc-RecipientActivityReportExtended .sc-exm-Card [data-sc-id$=InfoRightColumn] {
+  position: relative;
+  padding: 0;
+}
+.sc-RecipientActivityReportExtended .sc-exm-Card [data-sc-id$=InfoRightColumn] [data-sc-id$=TimeOfTheDay] {
+  position: absolute;
+  left: -15px;
+  top: 10px;
+  z-index: 3;
+  display: block;
+  width: 100%;
+}
+.sc-RecipientActivityReportExtended .sc-exm-Card [data-sc-id$=InfoRightColumn] [data-sc-id$=TimeOfTheDay] .nv-axislabel,
+.sc-RecipientActivityReportExtended .sc-exm-Card [data-sc-id$=InfoRightColumn] [data-sc-id$=TimeOfTheDay] .nv-axislabel.custom {
+  display: none !important;
+}
+.sc-RecipientActivityReportExtended .sc-exm-Card [data-sc-id$=TotalSent] {
+  margin-bottom: 10px;
+}
+.sc-RecipientActivityReportExtended .sc-exm-Card [data-sc-id$=TotalSent] [data-sc-id$=TextValue] {
+  font-size: 180%;
+}

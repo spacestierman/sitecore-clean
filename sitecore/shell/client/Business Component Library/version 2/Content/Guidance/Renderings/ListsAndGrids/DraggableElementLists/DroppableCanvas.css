@@ -1,0 +1,43 @@
+﻿[data-sc-id="DropCanvas"] {
+  min-height: 100%;
+}
+
+/**
+ * Styling for custom renderings
+ */
+.myapp-section {
+  margin-bottom: 15px;
+  background-color: #e8e4ca;
+  border: 1px dotted #808080;
+  padding: 15px;
+  cursor: move;
+}
+
+.myapp-section:last-child, .myapp-textField:last-child {
+    margin-bottom: 0;
+}
+
+.myapp-droppable {
+  background-color: #fff;
+  min-height: 30px;
+  padding: 15px;
+  cursor: auto;
+}
+
+.myapp-textField {
+    margin-bottom: 15px;
+    background: gray;
+    cursor: move;
+}
+
+.myapp-textField textarea {
+    margin: 5px;
+    pointer-events: none;
+}
+
+/**
+ * Handle selection highlighting
+ */
+.myapp-selected {
+  background-color: cornflowerblue;
+}

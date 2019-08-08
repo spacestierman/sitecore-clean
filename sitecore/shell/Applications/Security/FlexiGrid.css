@@ -1,0 +1,37 @@
+table.Grid > tbody > tr > td > table {
+    table-layout: fixed;
+    width:100%;
+}
+
+.Row, .Row * {
+    text-overflow: unset !important;
+	text-overflow: inherit !important;
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+.column10 {
+    width: 10% !important;
+}
+
+.column15 {
+    width: 15% !important;
+}
+
+.column20 {
+    width: 20% !important;
+}
+
+.column30 {
+    width: 30% !important;
+}
+
+.column35 {
+    width: 35% !important;
+}
+
+@media (max-width: 700px) {
+    .column10 {
+        width: 70px !important; /* workaround for 10% min-width of 700px dialog, so column does not get too small */
+    }
+}

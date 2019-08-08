@@ -1,0 +1,16 @@
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.bak filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.cfxz filter=lfs diff=lfs merge=lfs -text
+*.cfx filter=lfs diff=lfs merge=lfs -text
+*.nrm filter=lfs diff=lfs merge=lfs -text
+*.frq filter=lfs diff=lfs merge=lfs -text
+*.tis filter=lfs diff=lfs merge=lfs -text
+*.prx filter=lfs diff=lfs merge=lfs -text
+*.tii filter=lfs diff=lfs merge=lfs -text
+*.fnm filter=lfs diff=lfs merge=lfs -text
+*.cfs filter=lfs diff=lfs merge=lfs -text
+*.xml filter=lfs diff=lfs merge=lfs -text
+*.tdf filter=lfs diff=lfs merge=lfs -text

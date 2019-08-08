@@ -1,0 +1,48 @@
+﻿@media (max-width: 992px) {
+  .popover.bottom .col-md-3 {
+    width: 25%;
+  }
+  .popover.bottom .col-md-9 {
+    width: 75%;
+  }
+  .popover.bottom .row[data-sc-id="PopoverRowPanel"] > div {
+    float: left;
+  }
+}
+.sc .sc-load-on-demand-panel .sc-exm-RecipientListSelector .sc-border.sc-show-padding {
+  padding: 15px;
+}
+.sc .sc-load-on-demand-panel .row[data-sc-id="RecipientsRowPanel"] {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.sc .popover.bottom {
+  background: #333;
+  color: #fff;
+  min-width: 300px;
+  max-width: 400px;
+  padding-bottom: 10px;
+}
+.sc .popover.bottom > .arrow:after {
+  border-bottom-color: #333;
+}
+.sc .popover.bottom [data-sc-id="IconColumnPanel"] {
+  text-align: center;
+  padding-top: 10px;
+}
+.sc .popover.bottom div[data-sc-id="TextColumnPanel"] {
+  padding-left: 0;
+}
+.sc .popover.bottom div[data-sc-id="TextColumnPanel"] .sc-hyperlinkbutton {
+  white-space: normal;
+}
+.sc .popover.bottom .sc-text[data-sc-id="FirstTimeText"] {
+  line-height: 35px;
+}
+.sc .popover.bottom .sc-border.sc-show-padding[data-sc-id="HintBorder"] {
+  padding: 10px 25px 20px 0;
+  line-height: 120%;
+}
+.sc .popover.bottom .sc-hyperlinkbutton[data-sc-id="DontShowHyperlinkButton"] {
+  color: #287ecc;
+}

@@ -1,0 +1,10 @@
+﻿html .sc-hoverable:hover {
+  -webkit-box-shadow: 0px 0px 0px 1px #6ac0e2;
+  -moz-box-shadow: 0px 0px 0px 1px #6ac0e2;
+  box-shadow: 0px 0px 0px 1px #6ac0e2;
+}
+html .sc-focusable:focus {
+  -webkit-box-shadow: 0px 0px 0px 2px #6ac0e2;
+  -moz-box-shadow: 0px 0px 0px 2px #6ac0e2;
+  box-shadow: 0px 0px 0px 2px #6ac0e2;
+}

@@ -1,0 +1,22 @@
+.lm-asterisk {
+    color: #dc271e;
+    font-size: larger;
+}
+
+.lm-scroll-import {
+    max-height: 260px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.lm-scroll-add {
+    max-height: 270px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.lm-header {
+    background-color: #969696;
+    color: #ffffff;
+}
+/*# sourceMappingURL=ImportMapTo.css.map */

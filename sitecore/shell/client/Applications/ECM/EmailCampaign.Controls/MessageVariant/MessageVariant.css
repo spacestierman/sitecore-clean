@@ -1,0 +1,39 @@
+﻿.sc-MessageVariant.readOnly [data-sc-id*=BodyHTMLOverlay],
+.sc-MessageVariant.existingPageBased [data-sc-id*=BodyHTMLOverlay] {
+  opacity: 0.5;
+  cursor: default;
+}
+.sc-MessageVariant div.sc-advancedExpander-body {
+  padding: 5px 15px;
+}
+.sc-MessageVariant .row {
+  padding: 5px 5px !important;
+}
+.sc-MessageVariant .row span {
+  font-weight: bold;
+  cursor: default;
+}
+.sc-MessageVariant .row .sc-frame {
+  min-height: 417px !important;
+  position: absolute;
+  width: 100% !important;
+}
+.sc-MessageVariant [data-sc-id$=BodyHTMLBorder] {
+  position: relative;
+  border: 1px solid #cccccc !important;
+  overflow: hidden;
+  height: 400px;
+}
+.sc-MessageVariant [data-sc-id$=BodyHTMLBorder].mouseenter [data-sc-id$=BodyHTMLOverlay] {
+  display: block !important;
+}
+.sc-MessageVariant [data-sc-id$=BodyHTMLOverlay] {
+  background: #ffffff;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  cursor: pointer;
+  height: 400px;
+}

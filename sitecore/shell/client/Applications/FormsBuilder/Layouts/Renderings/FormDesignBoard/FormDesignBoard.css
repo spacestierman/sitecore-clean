@@ -1,0 +1,104 @@
+﻿.sc-formDesignBoard {
+    width: 100%;
+}
+
+.sc-formdesign-form-empty {
+    border: 3px dashed #cccccc;
+}
+
+.sc-formdesign-placeholdertext {
+    display: none;
+    color: #cccccc;
+}
+
+.sc-formdesign-placeholdertext:only-child {
+    display: block;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.sc-formdesign-formcontainer > .sc-formdesign-placeholdertext {
+    margin-top: 145px;
+}
+
+.sc-formdesign-pagecontainer > .sc-formdesign-placeholdertext {
+    margin-top: 115px;
+}
+
+.sc-formdesign-container {
+    padding: 15px;
+    background-color: #fff;
+    cursor: default;
+    border: 3px solid transparent;
+}
+
+.sc-formdesign-formcontainer.sc-formdesign-container {
+    min-height: 315px;
+    background-color: transparent;
+}
+
+.sc-formdesign-pagecontainer.sc-formdesign-container {
+    min-height: 270px;
+}
+
+.sc-formdesign-fieldcontainer {
+    padding: 5px;
+    cursor: move;
+}
+
+.sc-formdesign-fieldcontainer:before,
+.sc-formdesign-fieldcontainer:after {
+  content: " ";
+  display: table;
+  clear: both;
+  line-height: 0;
+}
+
+.sc-formdesign-fieldcontainer.has-drop-area {
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border: 1px dotted #808080;
+    padding: 15px;
+    cursor: move;
+}
+
+.sc-formdesign-fieldcontainer.sc-formdesign-pagecontainer {
+    box-shadow: 0px 1px 3px 0px rgba(19, 19, 19, 0.2);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+}
+
+.sc-formdesign-fieldcontainer:focus {
+    outline: none;
+}
+
+.sc-formdesign-fieldcontainer.selected:focus {
+    border: 1px solid #3faed9;
+}
+
+.sc-formdesign-fieldcontainer.selected,
+.sc-formdesign-fieldcontainer.selected:hover,
+.sc-formdesign-fieldcontainer.has-drop-area.selected:hover {
+    background-color: #aadbee;
+}
+
+.sc-formdesign-fieldcontainer:hover {
+    outline: 1px dashed #cccccc;
+    background-color: #e3e3e3;
+}
+
+.sc-formdesign-spinner-wrapper {
+    background-color: transparent !important;
+}
+
+.sc-formdesign-spinner {
+    display: inline-block;
+    margin: 5px;
+    padding: 18px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.175);
+    background: #ffffff url("/sitecore/shell/client/Speak/Assets/img/Speak/ProgressIndicator/sc-spinner16.gif") center center no-repeat;
+}

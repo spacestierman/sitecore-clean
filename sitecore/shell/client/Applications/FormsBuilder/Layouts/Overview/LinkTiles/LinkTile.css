@@ -1,0 +1,41 @@
+.sc .sc-linklist-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: default;
+    margin: 0;
+}
+
+.sc .sc-linklist-copiedtag {
+    position: absolute;
+    right: 8px;
+    background: #88BB5D;
+    padding: 4px 8px;
+    top: 8px;
+    border-radius: 2px;
+    color: white;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.sc .sc-listcontrol.sc-tilelist[data-sc-id="LinksListControl"] .sc-listcontrol-tiles .sc-listcontrol-tile {
+    padding: 1px;
+}
+
+.sc .sc-listcontrol.sc-tilelist[data-sc-id="LinksListControl"] .sc-listcontrol-tiles .sc-listcontrol-tile.selected .sc-listcontrol-tile-content {
+    background: white;
+    border-radius: 2px;
+}
+
+.sc .sc-listcontrol.sc-tilelist[data-sc-id="LinksListControl"] .sc-listcontrol-tiles .sc-listcontrol-tile:hover .sc-listcontrol-tile-content {
+  background-color: #e3e3e3;
+}
+
+.sc .sc-listcontrol.sc-tilelist[data-sc-id="LinksListControl"] .sc-listcontrol-tiles .sc-listcontrol-tile .sc-listcontrol-tile-content {
+    border: 0;
+    padding: 12px;
+}
+
+.sc .sc-listcontrol.sc-tilelist[data-sc-id="LinksListControl"] .sc-listcontrol-tiles {
+    overflow-y: hidden;
+}

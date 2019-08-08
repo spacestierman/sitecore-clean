@@ -1,0 +1,31 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@model Sitecore.ExperienceAnalytics.Client.Mvc.Presentation.ExperienceAnalyticsDataTableViewModel
+@{
+    var rendering = Model.Control;
+    var htmlAttributes = rendering.HtmlAttributes;
+}
+<div @htmlAttributes>
+
+    <table class="sc-table">
+        <thead>
+        <tr data-bind="foreach:headerItems">
+            <th class="sc-text-align-center" data-bind="text:headerText, attr:{title: headerText}"></th>
+        </tr>
+        </thead>
+        <div data-bind="ifnot:isNoDataAvailable">
+            <tbody data-bind="foreach:bodyItems">
+            <tr data-bind="html:$parent.drawBodyItem($data), click:$parent.itemClicked"></tr>
+            </tbody>
+        </div>
+        <tbody data-bind="if:isNoDataAvailable">
+        <tr >
+            <td data-bind="attr:{colspan: headerItems().length}">
+                <div data-bind="text:errorMessages().noDataAvailable"></div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+

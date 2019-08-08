@@ -1,0 +1,22 @@
+﻿.sc-border[data-sc-id="CreateBorder"] {
+    max-width: 525px;
+    width: 525px;
+}
+
+.sc-border.sc-show-padding[data-sc-id="CreateHeaderBorder"] {
+    padding-bottom: 25px;
+    color: #131313;
+}
+
+.sc-buttontextbox[data-sc-id="CreateFormSearchTextBox"] {
+    max-width: 320px;
+}
+
+.sc-listcontrol[data-sc-id="CreateFormListControl"] .sc-listcontrol-icons {
+    max-height: 465px;
+    margin-bottom: 6px;
+}
+
+.sc-listcontrol[data-sc-id="CreateFormListControl"] .sc-listcontrol-icon {
+    vertical-align: auto;
+}
